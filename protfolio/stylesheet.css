@@ -13,3 +13,19 @@ body {
     background: var(--bg);
     color: var(--text);
 }
+.container {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    padding: 0 16px;
+}
+    .site-header {
+    border-bottom: 1px solid var(--border);
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
