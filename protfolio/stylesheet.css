@@ -75,6 +75,74 @@ body {
     border-radius: 999px;
     font-size: 0.85rem;
 }
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.muted {
+    color: var(--muted);
+}
+.mini-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+    .mini-box {
+    border: 1px solid var(--border);
+    padding: 10px;
+    border-radius: 12px;
+    }
+    .mini-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    }
+    .mini-value {
+    font-weight: 600;
+    }
+    .section {
+    padding: 60px 0;
+    }
+    .section-header {
+    margin-bottom: 24px;
+    }
+    .contact-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    }
+    .contact-link {
+    color: var(--accent);
+    text-decoration: none;
+    }
+    @media (max-width: 900px) {
+    .hero-inner {
+        grid-template-columns: 1fr;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
